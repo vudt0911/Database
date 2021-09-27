@@ -9,7 +9,7 @@
 
     CREATECREATE DATABASE product_management;
 
-    [!login-create-database](Desktop/Database/HomeWork1/screenshots/login-create-database.png)
+    ![login-create-database](Desktop/Database/HomeWork1/screenshots/login-create-database.png)
 
 * Tạo bảng product với các cột mã sản phẩm, tên sản phẩm, loại sản phẩm (thực phẩm, đồ gia dụng, đồ điện tử, ...) số lượng, số lượng bán, giá bán, ngày sản xuất, hạn sử dụng.
 
@@ -27,8 +27,8 @@
     -> );
 Query OK, 0 rows affected (0.03 sec)
 
-[!create-table](Desktop/Database/HomeWork1/screenshots/create-table.png)
-[!show-table](Desktop/Database/HomeWork1/screenshots/show-table.png)
+![create-table](Desktop/Database/HomeWork1/screenshots/create-table.png)
+![show-table](Desktop/Database/HomeWork1/screenshots/show-table.png)
 
 * Thêm sản phẩm vào bảng vừa tạo.
 
@@ -41,6 +41,6 @@ mysql> INSERT INTO product (id, name, category, amount, amount_sell, price, date
 Query OK, 5 rows affected (0.01 sec)
 Records: 5  Duplicates: 0  Warnings: 0
 
-[!insert-data](Desktop/Database/HomeWork1/screenshots/insert-data.png)
+![insert-data](Desktop/Database/HomeWork1/screenshots/insert-data.png)
 
 
