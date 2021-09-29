@@ -32,9 +32,9 @@ hoặc
         WHERE (rating IN('NC-17', 'R') AND special_features = 'Trailers')
     
 
-![code](/image/1-1.png)
-![code](/image/1-2.png)
-![code](/image/1-3.png)
+![code](./image/1-1.png)
+![code](./image/1-2.png)
+![code](./image/1-3.png)
 
 # Lấy ra tên phim, length các bộ phim có length nhỏ hơn 70 hoặc length lớn hơn 100. Sắp xếp phim theo thứ tự length tăng dần
 
@@ -52,8 +52,8 @@ cách 2:
     WHERE length < 70 OR length > 100
     ORDER BY length ASC
 
-![code](/image/2-1.png) 
-![code](/image/2-2.png) 
+![code](./image/2-1.png) 
+![code](./image/2-2.png) 
 
 # Lấy ra các actor có first_name bắt đầu là chữ B và sắp xếp theo thứ tự last_name tăng dần
 
@@ -62,8 +62,8 @@ cách 2:
     WHERE first_name LIKE 'B%'
     ORDER BY last_name ASC
 
-![code](/image/3-1.png) 
-![code](/image/3-2.png) 
+![code](./image/3-1.png) 
+![code](./image/3-2.png) 
 
 # Lấy ra các bộ phim không có chứa từ 'LIFE', không phải rating PG và sắp xếp theo thứ tự length giảm dần
 
@@ -72,5 +72,5 @@ cách 2:
     WHERE title NOT LIKE '%LIFE%' AND rating != 'PG'
     ORDER BY length DESC
 
-![code](/image/4-1.png) 
-![code](/image/4-2.png) 
+![code](./image/4-1.png) 
+![code](./image/4-2.png) 
